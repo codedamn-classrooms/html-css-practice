@@ -1,5 +1,76 @@
-body {
-	padding: 0px;
-	margin: 0px;
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+* {
 	box-sizing: border-box;
+}
+a {
+	cursor: pointer;
+}
+body {
+	background: #fafafa;
+	margin: 50px auto;
+	padding: 0;
+	border: 0;
+	width: 800px;
+	max-width: 95%;
+	font-family: "Cabin", sans-serif;
+}
+body section {
+	background: #fff;
+	position: relative;
+	border-radius: 2px;
+	margin: 10px 0;
+	padding: 0;
+	border: 1px solid #dbdbdb;
+}
+body section .header {
+	display: flex;
+	justify-content: space-between;
+}
+body section .header .user {
+	margin: 5px;
+	padding: 7px;
+	border: 0;
+}
+body section .header .options {
+	cursor: pointer;
+	margin: 6px;
+	padding: 6px;
+	border: 0;
+	border-radius: 4px;
+}
+body section .header .options:hover {
+	background: #000;
+}
+
+body section .img-container img {
+	width: 100%;
+}
+
+.toolbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0px 8px;
+}
+
+.toolbar section {
+	border: 0px;
+}
+.like,
+.comment,
+.transfer {
+	margin: 8px;
+	padding: 0;
+	border: 0;
+}
+body section .description {
+	margin: 6px;
+	padding: 6px;
+	border: 0;
+	font-size: 16px;
+}
+body section .description strong {
+	font-weight: bold;
+	font-size: 15px;
 }
